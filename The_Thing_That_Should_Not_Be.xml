@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+    <mods:titleInfo>
+        <mods:title>The Thing That Should Not Be</mods:title>
+    </mods:titleInfo>
+    <mods:name type="corporate" authority="naf"
+        authorityURI="http://id.loc.gov/authorities/names/n80017007">
+        <mods:namePart>Metallica</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="text" authority="marcrelator">creator</mods:roleTerm>
+            <mods:roleTerm type="code" authority="marcrelator">cre</mods:roleTerm>
+        </mods:role>
+        <mods:role>
+            <mods:roleTerm type="text" authority="marcrelator">musician</mods:roleTerm>
+            <mods:roleTerm type="code" authority="marcrelator">mus</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:typeOfResource>sound recording-musical</mods:typeOfResource>
+    <mods:language>
+        <mods:languageTerm>eng</mods:languageTerm>
+    </mods:language>
+    <mods:originInfo>
+        <mods:dateIssued encoding="iso8601">1986-03-03</mods:dateIssued>
+        <mods:publisher>Elektra Records</mods:publisher>
+        <mods:place>
+            <mods:placeTerm>United States</mods:placeTerm>
+        </mods:place>
+    </mods:originInfo>
+    <mods:abstract>
+        The third song from Metallica's third album "Master of Puppets." The mp3 file can be found on Youtube, uploaded by a variety of users. "The Thing That Should Not Be" was inspired by the Cthulhu Mythos created by famed horror writer H.P. Lovecraft, with notable direct references to characters who have gone mad after an encounter with Cthulhu, who is the subject matter of the song's chorus.
+    </mods:abstract>
+    <mods:subject authority="lcsh">
+        <mods:topic>Music</mods:topic>
+    </mods:subject>
+    <mods:subject authority="lcsh">
+        <mods:topic>Horror in music</mods:topic>
+    </mods:subject>
+    <mods:subject authority="lcsh">
+        <mods:name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/n80017007">
+            <mods:namePart>Lovecraft, H. P. (Howard Phillips), 1890-1937</mods:namePart>
+        </mods:name>
+        <mods:topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/sh2002006350">Appreciation</mods:topic>
+    </mods:subject>
+    <mods:subject authority="naf" authorityURI="http://id.loc.gov/authorities/names/no2017024148">
+        <mods:name>
+            <mods:namePart>Cthulhu (fictitious character)</mods:namePart>
+        </mods:name>
+    </mods:subject>
+    <mods:subject authority="local">
+        <mods:name>
+            <mods:namePart>George Gammell Angell (ficticious character)</mods:namePart>
+        </mods:name>
+    </mods:subject>
+    <mods:subject authority="local">
+        <mods:name>
+            <mods:namePart>Gustaf Johnansen (ficticious character)</mods:namePart>
+        </mods:name>
+    </mods:subject>
+    <mods:genre>
+        Thrash Metal
+    </mods:genre>
+    <mods:location displayLabel="Cthulhu Mythos">
+        <mods:shelfLocator>CM13</mods:shelfLocator>
+    </mods:location>
+    <mods:relatedItem type="otherFormat">
+        <mods:physicalDescription>
+            <mods:extent>6 minutes, 36 seconds</mods:extent>
+            <mods:form>mp3</mods:form>
+            <mods:internetMediaType>Youtube mp3 file</mods:internetMediaType>
+        </mods:physicalDescription>
+    </mods:relatedItem>
+    <mods:relatedItem type="references">
+        <mods:titleInfo>
+            <mods:title>The Thing That Should Not Be</mods:title>
+        </mods:titleInfo>
+        <mods:name authority="naf" authorityURI="http://id.loc.gov/authorities/names/n80017007">
+            <mods:namePart>Lovecraft, H. P. (Howard Phillips), 1890-1937</mods:namePart>
+            <mods:role>
+                <mods:roleTerm type="text" authority="marcrelator">creator</mods:roleTerm>
+                <mods:roleTerm type="code" authority="marcrelator">cre</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+    </mods:relatedItem>
+    <mods:accessCondition>The item is under copyright. But no one cares. We're advocating you check
+        out this rocking tune on youtube.</mods:accessCondition>
+</mods:mods>
