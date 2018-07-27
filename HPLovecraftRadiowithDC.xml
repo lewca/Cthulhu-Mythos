@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://github.com/lewca/Cthulhu-Mythos"
+    xmlns:cm="https://github.com/lewca/Cthulhu-Mythos"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:mods="http://www.loc.gov/mods/v3" elementFormDefault="qualified">
+    
+    <xs:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="http://dublincore.org/schemas/xmls/qdc/dc.xsd"/>
+    <xs:import namespace="http://purl.org/dc/terms/" schemaLocation="http://dublincore.org/schemas/xmls/qdc/dcterms.xsd" />
+    <xs:import namespace="http://www.loc.gov/mods/v3" schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-7.xsd"/>
+    
+    <xs:element name="cthulhuMythos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cursedObject" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="oldOnes" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="cm:modsSection" minOccurs="0"/>
+                <xs:element ref="cm:dcSection" minOccurs="0" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    
+    <xs:element name="modsSection">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mods:mods" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="dcSection">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:sequence>
+                    <xs:element ref="dc:any" maxOccurs="unbounded" />
+                </xs:sequence>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <mods:titleInfo>
+        <mods:title>H.P. Lovecraft Radio Hour</mods:title>
+        <mods:partNumber>Vol. 1</mods:partNumber>
+    </mods:titleInfo>
+    <mods:name type="corporate">
+        <mods:displayForm>Changing Elevations</mods:displayForm>
+        <mods:description>artist</mods:description> 
+        <mods:role>
+            <mods:roleTerm type="text" authority="marcrelator">artist</mods:roleTerm>
+            <mods:roleTerm type="code" authority="marcrelator">art</mods:roleTerm> 
+        </mods:role>
+    </mods:name>
+    <mods:name type="personal" authority="naf"> 
+        <mods:namePart type="family">Lovecraft</mods:namePart>
+        <mods:namePart type="given">H. P. (Howard Phillips)</mods:namePart>
+        <mods:namePart type="date">1890-1937</mods:namePart>  
+        <mods:role>
+            <mods:roleTerm type="text" authority="marcrelator">author</mods:roleTerm>
+            <mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm> 
+        </mods:role>
+    </mods:name> 
+    <mods:typeOfResource>sound recording-nonmusical</mods:typeOfResource>
+    <mods:genre authority="marcgt">nonmusical sound</mods:genre>
+    <mods:genre authority="marcgt">short story</mods:genre>
+    <mods:genre authority="marcgt">fiction</mods:genre>
+    <mods:genre>Thrillers (Radio programs)</mods:genre>
+    <mods:originInfo>
+        <mods:copyrightDate>2008</mods:copyrightDate>
+        <mods:publisher>Changing Elevations, Inc.</mods:publisher>
+    </mods:originInfo>
+    <mods:language>
+        <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>  
+    </mods:language>
+    <mods:physicalDescription>
+        <mods:extent>1 sound disc (74 mins.)</mods:extent>
+        <mods:form type="audio disc"></mods:form> 
+    </mods:physicalDescription>
+    <mods:abstract>This terrifying CD compilation gathers together the three tales Picture in the House, Dagon and Beyond the Wall of Sleep from Lovecraft's early works, and couples them with original interludes. Narration is joined by sound effects and musical composition to elevate the stories beyond books on CD. A visceral audio experience transports you to a realm where humanity is neither present nor accounted for.
+        Also included for your viewing pleasure is original CD artwork inspired by Lovecraft's tales. You may want to avoid viewing or listening to this album if you are alone and despairing. Such an environment could lead to wild hallucinations or worse yet, a warped perception on reality. We cannot be held responsible for any such...happenings.
+        In essence we strongly urge you to listen to this collection with the utmost caution and awareness for the path to madness you will undoubtedly embark upon. Also be sure to share this experience with all your friends and family, such mental anguish should not be hoarded by any one mind.
+        On a side note some Shuggoths have broken loose and our wranglers are working tirelessly to restrain them. Should you, your home or loved ones be eviserated into the ether, consider it an honor. Not everyone gets to become the foodstuff of an ageless being's wandering pet. Also you probably had nothing going on this weekend anyways.
+        This album contains instances of graphic themes and scenes of audio violcence and may not be suitable for younger listeners.</mods:abstract> 
+    <mods:tableOfContents>1-Intro; 2-Picture in the House 1; 3-Picture in the House 2; 4-C'thulhu and the R'lyeh Riders; 5-Dagon 1; 6-Dagon 2; 7-The Iron Cauldron; 8-Beyond the Wall of Sleep 1; 9- Beyond the Wall of Sleep 2; 10-Beyond the Wall of Sleep 3</mods:tableOfContents> 
+    <mods:targetAudience authority="marctarget">adult</mods:targetAudience> 
+    <mods:subject authority="lcsh">
+        <mods:topic>Horror tales, American</mods:topic>
+    </mods:subject>
+    <mods:subject authority="lcsh">
+        <mods:topic>Radio programs</mods:topic>
+    </mods:subject>
+    <mods:subject authority="lcsh"> 
+        <mods:topic>Science fiction</mods:topic>
+    </mods:subject>
+    <mods:identifier type="asin">B001JP61QW</mods:identifier>
+    <mods:location displayLabel="Cthulhu Mythos">
+            <mods:shelfLocator>CM8</mods:shelfLocator>
+    </mods:location>
+    <mods:part>
+        <mods:detail type="volume">
+            <mods:number>1</mods:number>
+        </mods:detail>
+    </mods:part>
+    <mods:recordInfo>
+        <mods:recordContentSource>Amazon.com</mods:recordContentSource> 
+    </mods:recordInfo>
+</mods:mods>  
+ 
+    <dc:title>H.P. Lovecraft Radio Hour</dc:title>
+    <dc:creator>Changing Elevations</dc:creator>
+    <dc:contributor>Lovecraft, H.P. (Howard Phillips)</dc:contributor>
+ <dc:format>audio</dc:format>
+ <dc:rights>copyright</dc:rights>   
+    
+</xs:schema>
