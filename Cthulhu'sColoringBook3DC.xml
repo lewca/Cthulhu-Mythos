@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<cm:cthulhuMythos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://github.com/lewca/Cthulhu-Mythos http://www.pitt.edu/~mkane/CthulhuMythos/Cthulhu-Mythos.xsd"
+    xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:cm="https://github.com/lewca/Cthulhu-Mythos" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <cm:modsSection>
+    <mods:mods>
+    <mods:titleInfo>
+        <mods:title>Cthulhu's Coloring Book and Necronomicon of Sunny Day Doings</mods:title>
+    </mods:titleInfo>
+    <mods:name>
+        <mods:namePart type="family">Velikan</mods:namePart>
+        <mods:namePart type="given">Phil</mods:namePart>   
+        <mods:role>
+            <mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+            <mods:roleTerm type="text" authority="marcrelator">Author</mods:roleTerm>
+            <mods:roleTerm type="code" authority="marcrelator">ill</mods:roleTerm>
+            <mods:roleTerm type="text" authority="marcrelator">Illustrator</mods:roleTerm>
+        </mods:role> 
+    </mods:name>
+    <mods:name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/no2014009103">
+        <mods:namePart type="family">Kondras</mods:namePart>
+        <mods:namePart type="given">H. W. (Holly W.)</mods:namePart>   
+        <mods:role>
+            <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+            <mods:roleTerm type="text" authority="marcrelator">Editor</mods:roleTerm>
+        </mods:role> 
+    </mods:name>
+    <mods:typeOfResource>still image</mods:typeOfResource>
+    <mods:genre authority="marcgt">book</mods:genre>
+    <mods:genre>coloring book</mods:genre> 
+    <mods:originInfo>
+        <mods:copyrightDate>2018</mods:copyrightDate>
+        <mods:publisher>VIG Publishing</mods:publisher>
+        <mods:edition>2nd edition</mods:edition>
+    </mods:originInfo>
+    <mods:physicalDescription>
+        <mods:extent>56 pages</mods:extent>
+        <mods:extent>8.5 x 0.1 x 11 inches</mods:extent>
+        <mods:form>book</mods:form>
+    </mods:physicalDescription>
+    <mods:language>
+        <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>  
+    </mods:language>
+    <mods:abstract>At long last, the stars are aligned and a tome of activities has arisen! Word games, mazes, puzzles and dot-to-dots punctuate dozens of coloring pages featuring horrors out of time that await your crayons! Keep the book complete for your monster reference, or cut it up to make dioramas and mobiles or puppets you can use to act out a play and keep your co-workers away. Hours of madness and mind games are found within these pages! All horror but no blood for younger cultists, unless of course they go wild with a red crayon...
+        Pages of creatures from the depths of R'lyeh wait for you to open the portal to Cthulhu's Coloring Book and Necronomicon of Sunny Day Doings... if you dare.
+    </mods:abstract> 
+    <mods:subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/sh85096854">
+        <mods:topic>Coloring books</mods:topic>
+    </mods:subject>
+    <mods:subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/sh2001005788">
+        <mods:topic>Necronomicon (Imaginary book)</mods:topic>
+    </mods:subject>
+    <mods:subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/names/no2017024148">
+        <mods:topic>Cthulhu (Fictitious character)</mods:topic>
+    </mods:subject>
+    <mods:identifier type="isbn">9780692390566</mods:identifier>
+    <mods:identifier type="isbn">0692390561</mods:identifier>
+    <mods:location displayLabel="Cthulhu Mythos">
+        <mods:shelfLocator>CM2</mods:shelfLocator>
+    </mods:location>
+    <mods:accessCondition>All rights reserved under International and Pan-American Copyright Conventions. No part of this book may be reproduced, stored in a database or other retrieval system, or transmitted in any form, by any means, including mechanical, photocopy, recording or otherwise, without the prior
+        written permission of the publisher
+    </mods:accessCondition>
+    </mods:mods>
+    </cm:modsSection>
+    <cm:dcSection>
+        <dcterms:alternative>Cthulhu Coloring Book and Necronomicon of Sunny Day Doings</dcterms:alternative>
+        <dcterms:creator>Velikan, Phil</dcterms:creator>
+        <dcterms:subject>Cthulhu Mythos</dcterms:subject>
+        <dcterms:subject>oldOne</dcterms:subject>
+    </cm:dcSection>
+</cm:cthulhuMythos>
