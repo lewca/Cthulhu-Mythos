@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<cm:cthulhuMythos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://github.com/lewca/Cthulhu-Mythos http://www.pitt.edu/~mkane/CthulhuMythos/Cthulhu-Mythos.xsd"
+    xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:cm="https://github.com/lewca/Cthulhu-Mythos" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<cm:modsSection>
+    <mods:mods>
+    <mods:titleInfo>
+    <mods:title>Call of Cthulhu: Dark Corners of the Earth</mods:title>
+</mods:titleInfo>
+<mods:name type="corporate">
+    <mods:displayForm>Headfirst Productions</mods:displayForm>
+    <mods:role>
+        <mods:roleTerm type="text" authority="marcrelator">creator</mods:roleTerm>
+        <mods:roleTerm type="code" authority="marcrelator">cre</mods:roleTerm>
+    </mods:role>
+</mods:name>
+<mods:name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/nb2003099114">
+    <mods:namePart type="family">Woodroffe</mods:namePart>
+    <mods:namePart type="given">Simon</mods:namePart>   
+    <mods:role>
+        <mods:roleTerm type="code" authority="marcrelator">drt</mods:roleTerm>
+        <mods:roleTerm type="text" authority="marcrelator">Director</mods:roleTerm>
+    </mods:role> 
+</mods:name>
+<mods:name type="personal" authority="naf">
+    <mods:namePart type="family">Clarke</mods:namePart>
+    <mods:namePart type="given">Gareth</mods:namePart>   
+    <mods:role>
+        <mods:roleTerm type="code" authority="marcrelator">prg</mods:roleTerm>
+        <mods:roleTerm type="text" authority="marcrelator">Programmer</mods:roleTerm>
+    </mods:role> 
+</mods:name>
+<mods:typeOfResource>software, multimedia</mods:typeOfResource>
+<mods:genre authority="marcgt">game</mods:genre>
+<mods:language>
+    <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm> 
+</mods:language>
+<mods:language>
+    <mods:languageTerm type="code" authority="iso639-2b">fre</mods:languageTerm> 
+</mods:language>
+<mods:language>
+    <mods:languageTerm type="code" authority="iso639-2b">ger</mods:languageTerm> 
+</mods:language>
+<mods:originInfo>
+    <mods:copyrightDate encoding="iso8601">2006</mods:copyrightDate>
+    <mods:publisher>Bethesda Softworks</mods:publisher>
+</mods:originInfo>
+<mods:physicalDescription>
+    <mods:extent>1 Microsoft Xbox Game Disc</mods:extent>
+</mods:physicalDescription>
+<mods:abstract>A survival horror video game for the Microsoft Xbox based on H.P. Lovecraft's 1936 novella "The Shadow over Innsmouth". Set mostly in the year 1922, the story follows Jack Walters, a mentally unstable private detective hired to investigate in Innsmouth, a strange and mysterious town that has cut itself from the rest of the United States.
+</mods:abstract> 
+<mods:subject authority="lcsh">
+    <mods:name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/n80017007">
+        <mods:namePart>Lovecraft, H. P. (Howard Phillips), 1890-1937</mods:namePart>
+    </mods:name>
+    <mods:topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/sh2002006350">Appreciation</mods:topic>
+</mods:subject>   
+<mods:subject authority="lcsh">
+    <mods:topic>Horror tales, American</mods:topic>
+</mods:subject>
+<mods:subject authority="lcsh">    
+    <mods:topic>Computer adventure games</mods:topic>
+</mods:subject>    
+<mods:subject authority="lcsh">    
+    <mods:topic>Fantasy games</mods:topic>
+</mods:subject> 
+<mods:identifier type="asin">B0007ZD794</mods:identifier> 
+<mods:location displayLabel="Cthulhu Mythos">
+    <mods:shelfLocator>>CM14</mods:shelfLocator> 
+</mods:location>
+</mods:mods>
+</cm:modsSection>
+    
+    <cm:dcSection>
+        <dcterms:title>Call of Cthulhu: Dark Corners of the Earth</dcterms:title>
+        <dcterms:type>InteractiveResource</dcterms:type>
+        <dcterms:subject>Cthulhu Mythos</dcterms:subject>
+        <dcterms:subject>oldOne</dcterms:subject>
+        <dcterms:rights>copyright</dcterms:rights>
+    </cm:dcSection>
+</cm:cthulhuMythos>
