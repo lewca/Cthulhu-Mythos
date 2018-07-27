@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<cm:cthulhuMythos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://github.com/lewca/Cthulhu-Mythos http://www.pitt.edu/~mkane/CthulhuMythos/Cthulhu-Mythos.xsd"
+    xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:cm="https://github.com/lewca/Cthulhu-Mythos" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<cm:modsSection>
+    <mods:mods>    
+    <mods:titleInfo>
+        <mods:title>Call of the Cthulhu: Collector’s Edition DVD</mods:title>
+    </mods:titleInfo>
+    <mods:name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/no2005109975">
+        <mods:namePart type="family">Leman</mods:namePart>
+        <mods:namePart type="given">Andrew</mods:namePart>   
+        <mods:role>
+            <mods:roleTerm type="code" authority="marcrelator">drt</mods:roleTerm>
+            <mods:roleTerm type="text" authority="marcrelator">Director</mods:roleTerm>
+        </mods:role> 
+    </mods:name>
+    <mods:name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/no2005109977">
+        <mods:namePart type="family">Branney</mods:namePart>
+        <mods:namePart type="given">Sean</mods:namePart>   
+        <mods:role>
+            <mods:roleTerm type="code" authority="marcrelator">act</mods:roleTerm>
+            <mods:roleTerm type="text" authority="marcrelator">Actor</mods:roleTerm>
+        </mods:role> 
+    </mods:name>
+    <mods:typeOfResource>moving image</mods:typeOfResource>
+    <mods:genre authority="marcgt">motion picture</mods:genre>
+    <mods:genre authority="marcgt">fiction</mods:genre>
+    <mods:language>
+        <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+    </mods:language>
+    <mods:originInfo>
+        <mods:copyrightDate encoding="iso8601">2007</mods:copyrightDate>
+        <mods:publisher>Microcinema International</mods:publisher>
+    </mods:originInfo>
+    <mods:physicalDescription>
+        <mods:extent>1 disc (72 minutes)</mods:extent>
+        <mods:form>DVD</mods:form>
+    </mods:physicalDescription>
+    <mods:abstract>A silent film based on H.P. Lovecraft's short story "The Call of Cthulhu". The film follows the story's three-part narrative construction, and it moves from the 1920s to 1908 to the1870s and back, as the story does.
+    </mods:abstract> 
+    <mods:subject>
+        <mods:name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/n80017007">
+            <mods:namePart>Lovecraft, H. P. (Howard Phillips), 1890-1937</mods:namePart>
+        </mods:name>
+        <mods:topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/sh2002006350">Appreciation</mods:topic>
+    </mods:subject>
+    <mods:subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/sh85062077">
+        <mods:topic>Horror films</mods:topic>
+    </mods:subject>
+    <mods:subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/sh85118660">
+        <mods:topic>Science Fiction Films</mods:topic>
+    </mods:subject>
+    <mods:subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/sh85122472">
+        <mods:topic>Silent films</mods:topic>
+    </mods:subject>
+    <mods:identifier type="asin">B000BQTC98</mods:identifier> 
+    <mods:location>
+        <mods:shelfLocator>displayLabel="Cthulhu Mythos"type="local">CM13</mods:shelfLocator>
+    </mods:location>
+    </mods:mods>
+</cm:modsSection>
+    <cm:dcSection>
+        <dc:title>Call of the Cthulhu: Collector’s Edition DVD </dc:title>
+        <dc:contributor>Lewman, Andrew</dc:contributor>
+        <dc:type>MovingImage</dc:type>
+        <dc:format>video</dc:format>
+        <dc:subject>oldOne</dc:subject>
+        <dc:subject>Cthulhu Mythos</dc:subject>
+        <dc:rights>copyright</dc:rights>
+    </cm:dcSection>
+    
+</cm:cthulhuMythos>
