@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<cm:cthulhuMythos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://github.com/lewca/Cthulhu-Mythos http://www.pitt.edu/~mkane/CthulhuMythos/Cthulhu-Mythos.xsd"
+    xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:cm="https://github.com/lewca/Cthulhu-Mythos" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <cm:modsSection>
+        <mods:mods>
+            <mods:titleInfo><mods:title>Funko Pop Literature</mods:title>
+            <mods:subTitle>HP Lovecraft Cthulhu Action Figure</mods:subTitle>
+            </mods:titleInfo>
+            <mods:titleInfo type="alternative">
+                <mods:title>H. P. Lovecraft Cthulhu Action Figure</mods:title>
+            </mods:titleInfo>
+            <mods:name type="corporate">
+                <mods:namePart>Funko</mods:namePart>
+            </mods:name>
+            <mods:name altRepGroup="corporate">
+                <mods:namePart>POP! Literature</mods:namePart> 
+            </mods:name>
+            <mods:name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/n80017007"> 
+                <mods:namePart type="family">Lovecraft</mods:namePart>
+                <mods:namePart type="given">H. P. (Howard Phillips)</mods:namePart>
+                <mods:namePart type="date">1890-1937</mods:namePart>
+                <mods:description>original Cthulhu creator</mods:description>
+            </mods:name>
+            <mods:typeOfResource>three dimensional object</mods:typeOfResource> 
+            <mods:genre authority="marcgt">toy</mods:genre> 
+            <mods:genre authority="marcgt">model</mods:genre>
+            <mods:originInfo>
+                <mods:publisher>Funko</mods:publisher>
+                <mods:place>
+                    <mods:placeTerm>Everett, WA</mods:placeTerm>
+                </mods:place>
+            </mods:originInfo>
+            <mods:language>
+                <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+            </mods:language>
+            <mods:physicalDescription>
+                <mods:extent>3.5 x 3.5 x 3.8 inches</mods:extent>
+                <mods:extent>4 ounces</mods:extent>       
+            </mods:physicalDescription>
+            <mods:abstract>This little green monster, called the Cthulhu, may be packaged to look cute and adorable but don't let him fool you. He's the stuff of nightmares. The Cthulhu has claws on his hands and feet, wings behing him, and he has an octopus-like head. He's mean and green and scaly, too. This monster has been around for ages, which is why he's also called the Old One or Ancient One. Buyer beware!</mods:abstract>
+            <mods:abstract>The Evil One. He slinks about in the shadows, looking to devour souls and drive the weak-minded to insanity. The other Pop! Vinyl's better watch out when you bring this little demon home! The H.P. Lovecraft Cthulhu Pop! Vinyl Figure measures approximately 3 3/4-inches tall</mods:abstract>
+            <mods:targetAudience authority="marctarget">juvenile</mods:targetAudience>
+            <mods:targetAudience authority="marctarget">adolescent</mods:targetAudience>
+            <mods:subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/sh85022621">
+                <mods:topic>Character toys</mods:topic>
+            </mods:subject>
+            <mods:subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/names/no2017024148">
+                <mods:topic>Cthulhu (Fictitious character)</mods:topic>
+            </mods:subject>
+            <mods:identifier type="asin">B00P1NXFEE</mods:identifier> 
+            <mods:identifier>Item#4816</mods:identifier>
+            <mods:location displayLabel="Cthulhu Mythos">
+                <mods:shelfLocator>displayLabel="Cthulhu Mythos"type="local">CM9</mods:shelfLocator>
+            </mods:location>
+            <mods:recordInfo>
+                <mods:recordContentSource>Amazon.com</mods:recordContentSource> 
+            </mods:recordInfo> 
+        </mods:mods>
+    </cm:modsSection>
+    <cm:dcSection>
+        <dcterms:alternative>HP Lovecraft Cthulhu Action Figure</dcterms:alternative>
+        <dcterms:alternative>Cthulhu Action Figure</dcterms:alternative>
+        <dcterms:contributor>Lovecraft, H. P. (Howard Phillips)</dcterms:contributor>
+        <dcterms:subject>Cthulhu Mythos</dcterms:subject>
+        <dcterms:subject>oldOne</dcterms:subject>
+        <dcterms:subject>cursedObject</dcterms:subject>
+        <dc:type>PhysicalObject</dc:type>
+    </cm:dcSection>
+</cm:cthulhuMythos>
