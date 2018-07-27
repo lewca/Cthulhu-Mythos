@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<cm:cthulhuMythos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://github.com/lewca/Cthulhu-Mythos http://www.pitt.edu/~mkane/CthulhuMythos/Cthulhu-Mythos.xsd"
+    xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:cm="https://github.com/lewca/Cthulhu-Mythos" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <cm:modsSection>
+        <mods:mods>
+            <mods:titleInfo>
+                <mods:title>The Whisperer in Darkness</mods:title>
+            </mods:titleInfo>
+            <mods:titleInfo type="alternative">
+                <mods:title>Whisper in the Darkness</mods:title>
+            </mods:titleInfo>
+            <mods:name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/n80017007"> 
+                <mods:namePart type="family">Lovecraft</mods:namePart>
+                <mods:namePart type="given">H. P. (Howard Phillips)</mods:namePart>
+                <mods:namePart type="date">1890-1937</mods:namePart>  
+                <mods:role>
+                    <mods:roleTerm type="text" authority="marcrelator">author</mods:roleTerm>
+                    <mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm> 
+                </mods:role>
+            </mods:name>
+            <mods:name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/no2005109977">
+                <mods:namePart type="family">Branney</mods:namePart>
+                <mods:namePart type="given">Sean</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text" authority="marcrelator">Director</mods:roleTerm>
+                    <mods:roleTerm type="code" authority="marcrelator">drt</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/no2005109975">
+                <mods:namePart type="family">Leman</mods:namePart>
+                <mods:namePart type="given">Andrew</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text" authority="marcrelator">Director</mods:roleTerm>
+                    <mods:roleTerm type="code" authority="marcrelator">drt</mods:roleTerm>
+                </mods:role>
+                <mods:role>
+                    <mods:roleTerm type="text" authority="marcrelator">Producer</mods:roleTerm>
+                    <mods:roleTerm type="code" authority="marcrelator">pro</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:typeOfResource>moving image</mods:typeOfResource>
+            <mods:genre authority="marcgt">videorecordingy</mods:genre>
+            <mods:genre authority="marcgt">fiction</mods:genre>
+            <mods:language>
+                <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm> 
+            </mods:language>
+            <mods:originInfo>
+                <mods:copyrightDate>2012-07-31</mods:copyrightDate>
+                <mods:publisher>H.P. Lovecraft Historical Society</mods:publisher>
+            </mods:originInfo>
+            <mods:physicalDescription>
+                <mods:extent>1 disc</mods:extent>
+                <mods:form>DVD</mods:form>
+            </mods:physicalDescription>
+            <mods:abstract>Based on the H. P. Lovecraft story of the same name, a folklorist investigates reports of unusual creatures in Vermont only to uncover more than he bargained for
+            </mods:abstract>
+            <mods:subject authority="lcsh">
+                <mods:name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/n80017007">
+                    <mods:namePart>Lovecraft, H. P. (Howard Phillips), 1890-1937</mods:namePart>
+                </mods:name>
+                <mods:topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/sh2002006350">Appreciation</mods:topic>
+            </mods:subject>
+            <mods:subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/sh85062077">
+                <mods:topic>Horror films</mods:topic>
+            </mods:subject>
+            <mods:subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/sh85118660">
+                <mods:topic>Science Fiction Films</mods:topic>
+            </mods:subject>
+            <mods:identifier type="asin">B006LMRMMA</mods:identifier>
+            <mods:location displayLabel="Cthulhu Mythos">
+                <mods:shelfLocator>CM4</mods:shelfLocator>
+            </mods:location>
+        </mods:mods>
+    </cm:modsSection>
+    <cm:dcSection>
+        <dc:title>The Whisperer in Darkness</dc:title>
+        <dc:creator>Lovecraft, H. P. (Howard Phillips)</dc:creator>
+        <dc:contributor>Branney, Sean</dc:contributor>
+        <dc:type>MovingImage</dc:type>
+        <dc:subject>oldOne</dc:subject>
+        <dc:rights>copyright</dc:rights>
+    </cm:dcSection>
+</cm:cthulhuMythos>
