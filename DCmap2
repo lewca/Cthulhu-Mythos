@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/">
+    <dc:title>The Ballad of Black Tom</dc:title>
+    <dc:creator>Victor LaValle</dc:creator>
+    <dc:subject>Horror Tales - American</dc:subject>
+    <dc:subject>Lovecraft, H. P. (Howard Phillips), 1890-1937--Appreciation</dc:subject>
+    <dc:description> The Ballad of Black Tom is a 2016 fantasy/horror novella by Victor LaValle, revisiting H.P. Lovecraft's story "The Horror at Red Hook" from the viewpoint of a black man.</dc:description>
+    <dc:publisher>Tor.com</dc:publisher>
+    <dcterms:date>2016</dcterms:available>
+    <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+    <dc:identifier>CM#11</dc:identifier>
+    <dcterms:medium>Book</dcterms:medium>
+    <dc:identifier>ISBN 13: 9780765387868</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-3">eng</dc:language>
+    <dc:rights>Copyright</dc:rights>
+    
+</metadata>
